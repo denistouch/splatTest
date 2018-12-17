@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.TabLayoutController">
+   <bottom>
+      <BorderPane BorderPane.alignment="CENTER">
+         <left>
+            <Button fx:id="prevButton" mnemonicParsing="false" text="Prev" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Button fx:id="nextButton" mnemonicParsing="false" text="Next" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </bottom>
+   <center>
+      <TextArea fx:id="documentViewTextArea" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <TextField fx:id="findInDocTextField" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
